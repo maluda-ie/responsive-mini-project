@@ -1,7 +1,13 @@
-##Responsive Mini Project
+####Project Title
+Responsive Mini Project
+
+####Description
 Our first mini project with Code Institute. It was an opportunity to practice mobile first responsive web design. 
 
-###Technologies used: 
-Cloud9, Git, GitHub
+####Technologies used
+- Cloud9
+- Git
+- GitHub
 
-In the future I would like to style the application further. 
+View site here: https://responsive-mini-project-maluda.c9users.io/index.html
+
