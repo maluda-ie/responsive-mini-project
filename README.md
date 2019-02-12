@@ -1,10 +1,10 @@
-####Project Title
+#### Project Title
 Responsive Mini Project
 
-####Description
+#### Description
 Our first mini project with Code Institute. It was an opportunity to practice mobile first responsive web design. 
 
-####Technologies used
+#### Technologies used
 - Cloud9
 - Git
 - GitHub
