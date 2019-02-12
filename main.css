@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    /*will set margins that are children of the body to 0*/
+    margin: 0;
+    color: rgba(255,255,235,.8);
+}
+
+.header {
+    /*it won't float, potentially, content could float under or beneath it. will stay in same position when page is scrolled*/
+    position: fixed; 
+    /*no margins top, left and right*/
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e84610;
+    /*top and bottom*/
+    padding: 15px 25px; 
+} 
+
+.main {
+    height: 100%;
+}
+
+.section {
+    background-color: #0097d3;
+    height: 100%;
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    /*centers text on Y-axis, halfway down page*/
+    transform: translateY(-50);
+}
+
+.section-paragraph {
+    font-size: 1em;
+    /*creates space between left paragraph and left edge of browser*/
+    margin: 25px;
+}
+
+.footer {
+    background-color: #4a4a4f;
+    padding: 15px;
+}
+
+
+@media (min-width: 768px) {
+    .column {
+        float: left;
+    }
+    
+    .column-60 {
+        width: 60%;
+    }
+    
+    .column-40 {
+        width: 40%;
+    }
+
+}
+
